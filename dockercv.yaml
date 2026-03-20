@@ -36,4 +36,4 @@ layers:
       fr: "Mes projets"
       en: "My projects"
     cmd:
-      fr: "splitans -f neotex -F ansi -V assets/projects/fr/projects.neo"
+      fr: "splitans -f neotex -F ansi -V assets/projects/fr/projets.neo"
