@@ -1,12 +1,17 @@
 ###############################################################################
 # Tools
 ###############################################################################
+[settings]
+lockfile = true
+experimental=true
+
 [tools]
 go = "latest"
 just = "latest"
 "go:github.com/badele/justise" = "latest"
 "go:github.com/badele/godown" = "latest"
 gum = "latest"
+"go:github.com/badele/splitans" = "latest"
 
 ###############################################################################
 # Envs
