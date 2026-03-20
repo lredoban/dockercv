@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/badele/dockercv/compare/v1.1.1...v1.1.2) (2026-03-20)
+
+
+### Bug Fixes
+
+* french project pager link ([#4](https://github.com/badele/dockercv/issues/4)) ([070ea44](https://github.com/badele/dockercv/commit/070ea44bce274e7c56e8cf9ea516722da3602a8f))
+
 ## [1.1.1](https://github.com/badele/dockercv/compare/v1.1.0...v1.1.1) (2026-03-20)
 
 
