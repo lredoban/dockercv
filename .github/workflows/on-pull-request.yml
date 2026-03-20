@@ -29,7 +29,7 @@ jobs:
         run: mise install
 
       - name: Build Docker image
-        run: just build-image
+        run: mise run build-image
 
   docker-push:
     name: Docker Build and Push
@@ -71,4 +71,4 @@ jobs:
         env:
           IMAGE_TAGS: ${{ steps.meta.outputs.tags }}
           IMAGE_LABELS: ${{ steps.meta.outputs.labels }}
-        run: just build-image-push
+        run: mise run build-image-push

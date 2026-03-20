@@ -46,7 +46,7 @@ jobs:
         env:
           IMAGE_TAGS: ${{ steps.meta.outputs.tags }}
           IMAGE_LABELS: ${{ steps.meta.outputs.labels }}
-        run: just build-image-push
+        run: mise run build-image-push
 
   pages:
     name: Publish GitHub Pages
@@ -72,7 +72,7 @@ jobs:
         run: mise install
 
       - name: Generate pages
-        run: just generate-pages
+        run: mise run generate-pages
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
