@@ -1,0 +1,16 @@
+─ Outils utilisés ────────────────────────────────────────────────────────────── | !V1; !TW80/80 !NL16; 1:Fw, Bk; 3:FY; 19:R0, HBy
+                                                                                 | 
+  Ce  Curriculum Vitae  a  été  crée  avec  une  majorité  de mes  contributions | 
+  personnelles, devéloppé principallement en Go.                                 | 
+                                                                                 | 
+  neotex            * » Nouveau format ANSI                                      | 3:Fc; 21:FM; 23:FY; 25:FW, HL:<https://github.com/badele/neotex>; 44:Hl; 78:R0
+  splitans          * » Lecteur de fichier ANSI ou Neotex                        | 3:Fc; 21:FM; 23:FY; 25:FW, HL:<https://github.com/badele/splitans>; 58:Hl; 78:R0
+  ansi-compositor   * » Compositeur ANSI                                         | 3:Fc; 21:FM; 23:FY; 25:FW, HL:<https://github.com/badele/ansi-compositor>; 41:Hl; 78:R0
+  termfolio         * » Ce visualisateur                                         | 3:Fc; 21:FM; 23:FY; 25:FW, HL:<https://github.com/badele/termfolio>; 41:Hl; 78:R0
+  dockercv          * » Les sources de ce Curriculum Vitae                       | 3:Fc; 21:FM; 23:FY; 25:FW, HL:<https://github.com/badele/dockercv>; 59:Hl; 78:R0
+  icy-draw          » Outil de modelisation ANSI                                 | 3:Fc; 21:FY; 23:FW, HL:<https://github.com/mkrueger/icy_tools>; 49:Hl; 78:R0
+  chafa             » Conversion d'image vers ANSI                               | 3:Fc; 21:FY; 23:FW, HL:<https://github.com/hpjansson/chafa>; 51:Hl; 78:R0
+  bit               » Fonte ANSI                                                 | 3:Fc; 21:FY; 23:FW, HL:<https://github.com/superstarryeyes/bit>; 33:Hl; 78:R0
+                                                                                 | 
+  * Contribution personnelle                                                     | 3:FM; 4:R0
+  » Liens cliquables                                                             | 3:FY; 4:R0

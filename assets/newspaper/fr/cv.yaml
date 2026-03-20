@@ -1,0 +1,59 @@
+term:
+  width: 80
+  height: 200
+  encoding: utf8
+
+defaults:
+  inputFormat: neotex
+  inputEncoding: utf8
+
+sauce:
+  title: "Boot CV"
+  author: "Bruno Adelé"
+  group: "jesuislibre"
+  date: "20260317"
+  font: "80x25"
+  iceColors: true
+
+layers:
+  - name: title
+    x: 1
+    y: 1
+    width: 80
+    height: 16
+    file: cv_title.neo
+
+  - name: avatar
+    x: 2
+    y: 18
+    width: 37
+    height: 31
+    file: ../avatar.neo
+
+  - name: user infos
+    x: 42
+    y: 18
+    width: 40
+    height: 31
+    file: cv_user_infos.neo
+
+  - name: column_left
+    x: 1
+    y: 51
+    width: 39
+    file: cv_column_left.neo
+
+  - name: column_right
+    x: 42
+    y: 51
+    width: 39
+    file: cv_column_right.neo
+
+  - name: tools
+    x: 1
+    y: 91
+    width: 80
+    file: cv_tools.neo
+
+output:
+  format: neotex

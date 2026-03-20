@@ -1,0 +1,25 @@
+term:
+  width: 80
+  height: 80
+  encoding: utf8
+
+defaults:
+  inputFormat: ansi
+  inputEncoding: utf8
+
+output:
+  format: neotex
+  keepTrailingLines: true
+
+layers:
+  - name: intro
+    x: 1
+    y: 1
+    alignH: left
+    file: intro.neo
+    inputFormat: neotex
+  - name: exp
+    x: 1
+    y: 56
+    alignH: center
+    cmd: bit -color "#11DFA5" -fit-scales -1,0,1,2  -fit-width 80 -fit-priority width -fit-limit 1 -font boldpixels "SRE\nDEVOPS\nNETWORK\nSECURITY"

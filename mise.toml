@@ -1,0 +1,117 @@
+###############################################################################
+# Tools
+###############################################################################
+[tools]
+go = "latest"
+just = "latest"
+"go:github.com/badele/justise" = "latest"
+"go:github.com/badele/godown" = "latest"
+gum = "latest"
+
+###############################################################################
+# Envs
+###############################################################################
+[env]
+IMAGE_TAG = "badele/dockercv:latest"
+OUT_DIR = "dist"
+IMAGE_PLATFORMS = "linux/amd64,linux/arm64"
+BIN_PLATFORMS = "darwin/amd64,darwin/arm64,linux/amd64,linux/arm64"
+BUILDX_NAME = "multiarch"
+
+GO_VERSION = "1.26.1"
+GO_TOOLS = "github.com/badele/splitans@v0.15.1 github.com/badele/termfolio/cmd/termfolio@v0.6.1 github.com/charmbracelet/gum@v0.17.0"
+BIT_REPO = "https://github.com/badele/fork-bit.git"
+BIT_REF = "feat/cli-fit-mode"
+BUILDX_CACHE_DIR = ".buildx-cache"
+
+_.path = "dist/{{ os() | replace(from='macos', to='darwin') }}_{{ arch() | replace(from='x64', to='amd64') }}"
+
+###############################################################################
+# Task
+###############################################################################
+[tasks.justise]
+description = "Convert mise to just recipe"
+hide = true
+silent = true
+run = "justise"
+
+[tasks.test]
+description = "Run Go tests with coverage [go]"
+run = '''
+go mod download
+go test -v -race -coverprofile=coverage.txt -covermode=atomic
+'''
+
+[tasks.build]
+description = "Build termfolio binary [go]"
+run = "go build -v -o termfolio ./cmd/termfolio"
+
+[tasks.buildx-init]
+description = "Initialize buildx builder (idempotent) [docker]"
+run = "scripts/buildx-init.sh"
+
+[tasks.buildx]
+description = "Shared buildx runner [docker]"
+run = "scripts/buildx.sh"
+
+[tasks.build-image]
+description = "Build Linux multi-arch image [docker]"
+depends = ["buildx-init", "clean-cache"]
+run = "MODE=image scripts/buildx.sh"
+
+[tasks.build-local-image]
+description = "Build local image for current platform [docker]"
+depends = ["buildx-init"]
+run = "MODE=local-image scripts/buildx.sh"
+
+[tasks.run]
+description = "Run docker image for current platform [docker]"
+depends = ["buildx-init", "build-local-image"]
+run = '''
+MODE=local-image scripts/buildx.sh
+docker run -it --rm badele/dockercv:latest || true
+'''
+
+[tasks.build-image-push]
+description = "Build and push Linux multi-arch image [docker]"
+depends = ["buildx-init"]
+run = "MODE=push scripts/buildx.sh"
+
+[tasks.build-bins]
+description = "Export macOS/Linux binaries to dist/ [go]"
+depends = ["buildx-init", "clean-dist"]
+run = "MODE=bins scripts/buildx.sh"
+
+[tasks.clean-dist]
+description = "Remove dist output directory [go]"
+run = "scripts/clean-dist.sh"
+
+[tasks.clean-cache]
+description = "Remove buildx cache directory [go]"
+run = "scripts/clean-cache.sh"
+
+[tasks.generate-page]
+description = "Generate dockercv HTML pages [html]"
+usage = '''
+arg "<savename>" help="HTML filename" 
+arg "<filename>" help="Neotex filename" 
+'''
+run = '''
+splitans -f neotex -F html-pack -V ${usage_filename} 
+mv exported-html/index.html exported-html/${usage_savename}
+'''
+quiet = true
+
+[tasks.generate-pages]
+description = "Generate all dockercv HTML pages [html]"
+run = '''
+mise run generate-page journal.html "assets/newspaper/fr/journal.neo"
+mise run generate-page experiences.html "assets/experiences/fr/experiences.neo"
+mise run generate-page projets.html "assets/projects/fr/projets.neo"
+splitans -f neotex -F html-pack -V "assets/index/index.neo"
+'''
+quiet = true
+
+[tasks.deploy-gh-pages]
+description = "Deploy exported-html to gh-pages [html]"
+run = "scripts/deploy-gh-pages.sh"

@@ -1,0 +1,99 @@
+                                                                                                         | !V1; !W104/104; !N99; 1:FW, Bk
+               █▀▀▀▀  █▀▀▀█  █▀▀█▀▀█  █▀▀▀█  █▀▀▀  ▀▀█▀▀  █▀▀▀  █▀▀▀█  █▀▀▀▀  █▀▀▀  █▀▀▀▀                | 
+               █      █   █  █  █  █  █▀▀▀▀  █▀▀▀    █    █▀▀▀  █   █  █      █▀▀▀  ▀▀▀▀█                | 
+               █▄▄▄▄  █▄▄▄█  █  █  █  █      █▄▄▄    █    █▄▄▄  █   █  █▄▄▄▄  █▄▄▄  ▄▄▄▄█                | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+             S Y S T È M E            C L O U D            MONITORING            IAC / CI-CD             | 
+          ───────────────────      ───────────────      ────────────────      ────────────────           | 1:FK 
+            NixOS      ████░       AWS       ████░      Grafana    ████░      Terraform  ████░           | 1:FW; 24:FG; 28:Fw; 29:FW; 46:FG; 50:Fw; 51:FW; 68:FG; 72:Fw; 73:FW; 90:FG; 94:Fw; 
+            Ubuntu     ████░       GCP       ███░░      Prometheus ███░░      Docker     ████░           | 1:FW; 24:FG; 28:Fw; 29:FW; 46:FC; 49:Fw; 51:FW; 67:FC; 71:Fw; 73:FW; 90:FG; 94:Fw;
+            Archlinux  ███░░       OVH       ██░░░      InfluxDB   ███░░      Kubernetes ███░░           | 1:FW; 24:FC; 27:Fw; 29:FW; 46:FY; 48:Fw; 51:FW; 67:FC; 71:Fw; 73:FW; 90:FC; 93:Fw; 
+            CentOs     ██░░░       Scaleway  ██░░░      ELK        ██░░░      Helm       ███░░           | 1:FW; 24:FY; 26:Fw; 29:FW; 46:FY; 48:Fw; 51:FW; 67:FY; 70:Fw; 73:FW; 90:FC; 93:Fw;
+                                   Hetzner   █░░░░                            ArgoCD     ██░░░           | 1:FW; 24:FY; 25:Fw; 29:FW; 46:FR; 47:Fw; 51:FW; 67:FC; 71:Fw; 73:FW; 90:FY; 92:Fw;
+                                                                                                         | 
+                                                                                                         | 
+            L A N G U A G E        N E T W O R K I N G                                  LEGEND           | 1:FW
+          ───────────────────      ───────────────────                        ────────────────           | 1:FK 
+            Python     ████░        IPV4     ████░                            Maitrise   ████░           | 1:FW; 24:FG; 28:Fw; 29:FW; 46:FG; 50:Fw; 51:FW; 90:FG; 94:Fw
+            Bash       ████░        Routage  ████░                            Solide     ███░░           | 1:FW; 24:FG; 28:Fw; 29:FW; 46:FG; 50:Fw; 51:FW; 90:FC; 93:Fw
+            Go         ███░░        Firewall ███░░                            Notions    ██░░░           | 1:FW; 24:FC; 27:Fw; 29:FW; 46:FC; 49:Fw; 51:FW; 90:FY; 92:Fw
+            SQL        ██░░░        Mikrotik ██░░░                            Decouverte █░░░░           | 1:FW; 24:FY; 26:Fw; 29:FW; 46:FY; 48:Fw; 51:FW; 90:FR; 91:Fw
+            Rust       █░░░░        IPV6     █░░░░                                                       | 1:FW; 24:FR; 25:Fw; 29:FW; 46:FR; 47:Fw; 51:FW; 90:FR; 91:Fw 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+                  █▀▀▀  ▀▄ ▄▀  █▀▀▀█  █▀▀▀  █▀▀▀█  █  █▀▀▀  █▀▀▀█  █▀▀▀▀  █▀▀▀  █▀▀▀▀                    | 1:FW
+                  █▀▀▀   ▄▀▄   █▀▀▀▀  █▀▀▀  █▀▀█▀  █  █▀▀▀  █   █  █      █▀▀▀  ▀▀▀▀█                    | 
+                  █▄▄▄  █   █  █      █▄▄▄  █   █  █  █▄▄▄  █   █  █▄▄▄▄  █▄▄▄  ▄▄▄▄█                    | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+    Depuis plus de 28 ans,  je conçois,  exploite et optimise  des  infrastructures informatiques. J’ai  | 1:Fw
+débuté sur des  environnements aux  ressources limitées,  ce qui m’a  naturellement  appris à  tirer le  | 
+meilleur parti de chaque système, en privilégiant l’efficacité et la maîtrise des performances.          | 
+                                                                                                         | 
+    Au fil de ma carrière,  j’ai conçu et opéré  des infrastructures allant  jusqu’à plusieurs dizaines  | 
+de  serveurs et  une cinquantaine de machines virtuelles,  couvrant des services variés  :  messagerie,  | 
+services web et stockage à grande échelle.                                                               | 
+                                                                                                         | 
+    Je suis particulièrement attentif à la disponibilité des services que je propose.  Mon objectif est  | 
+de fournir  des systèmes stables,  disponibles 24/7,  capables de  gérer efficacement les pannes et les  | 
+situations dégradées.  Cela passe notamment par une supervision rigoureuse,  basée sur des outils comme  | 
+Prometheus et Grafana.                                                                                   | 
+                                                                                                         | 
+                                                                                                         | 
+    Mes principes directeurs                                                                             | 
+      - Performance                                                                                      | 
+      - Disponibilité                                                                                    | 
+      - Qualité de service                                                                               | 
+      - Automatisation                                                                                   | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+      P E R F O R M A N C E                                                                              | 5:Bg,Fk; 30:R0
+                                                                                                         | 
+    Habitué à  travailler avec  des  ressources contraintes,  j’ai développé  une forte  sensibilité à   | 
+l’optimisation. Je cherche en permanence à améliorer l’efficacité des systèmes,  que ce soit au niveau   | 
+de l’infrastructure ou du code, tout en restant pragmatique et aligné avec les besoins métier.           | 
+                                                                                                         | 
+    Cette approche  m’a notamment permis de contribuer,  en 2018 chez TabMo / Hawk,  à des plateformes   | 
+capables de soutenir jusqu’à 300 000 requêtes par seconde.                                               | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+      D I S P O N I B I L I T É                                                                          | 5:Bg,Fk; 34:R0
+                                                                                                         | 
+    Un service performant  n’a de  valeur que  s’il est disponible.  Je conçois  donc des architectures  | 
+robustes,  capables d’assurer une continuité de service maximale, avec une gestion efficace d'incidents  | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+      Q U A L I T É                                                                                      | 5:Bg,Fk; 22:R0
+                                                                                                         | 
+    La qualité est  un élément central  de mon travail.  Je m’attache à  fournir des solutions fiables,  | 
+    maintenables et adaptées aux besoins des utilisateurs.                                               | 
+                                                                                                         | 
+Cela implique :                                                                                          | 
+                                                                                                         | 
+  - une attention particulière à la qualité du code                                                      | 
+  - des architectures résilientes (redondance, réplication, tolérance aux pannes)                        | 
+  - une supervision continue pour garantir la stabilité dans le temps                                    | 
+                                                                                                         | 
+    Un système bien conçu est un système qui nécessite peu d’intervention.                               | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+     A U T O M A T I S A T I O N                                                                         | 5:Bg,Fk; 35:R0
+                                                                                                         | 
+   J’accorde une place importante à  l’automatisation,  afin de réduire les tâches répétitives à faible  | 
+valeur ajoutée et limiter les erreurs humaines.                                                          | 
+                                                                                                         | 
+  Chaque incident est pour moi une opportunité d’amélioration.  lorsqu’un problème survient,  j’intègre  | 
+systématiquement des  mécanismes de détection (monitoring,  alerting,  tests) afin d’éviter qu’il ne se  | 
+reproduise.                                                                                              | 

@@ -1,0 +1,4 @@
+dist
+.buildx-cache
+justfile.mise
+exported-html

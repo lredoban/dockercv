@@ -1,0 +1,40 @@
+   █ █ █ █▀▀ ▀█▀ █▀█ █▀█ █ █▀█ █ █ █▀▀  | !V1; !TW39/39; !NL39; 1:FB, Bk
+   █▀█ █ ▄▄█  █  █▄█ █▀▄ █ ▀▀█ █▄█ ██▄  | 
+──────────────────────────────────────  | 1:R0; 
+≡ 2024 - xxxx   Lead DevOps » (Akaiko)  | 1:FY; 3:FG; 17:FW; 29:FY; 31:FK, HL:<https://github.com/badele>; 39:Hl
+│ Gestion  de   la   CI   (du  dev  au  | 1:Fw; 2:R0
+│ déploiement). Monitoring de stack     | 1:Fw; 2:R0
+│                                       | 1:Fw; 
+│   AWS | Kubernetes | Terraform | NIX  | 1:Fw; 5:Fc; 9:R0; 11:Fc; 22:R0; 24:Fc; 34:R0; 36:Fc
+│          Helm | Prometheus | Grafana  | 1:Fw; 12:Fc; 17:R0; 19:Fc; 30:R0; 32:Fc
+│                                       | 1:R0
+│                                       | 
+≡ 2021 - 2024   Lead DevOps » (Seqone)  | 1:FY; 3:FG; 17:FW; 29:FY; 31:FK, HL:<https://github.com/badele>; 39:Hl
+│ Gestion d'infra hybride  (AWS / OVH)  | 1:Fw; 2:R0
+│ Gestion de CI Gitlab et amélioration  | 1:Fw; 2:R0 
+│ des performances de la CI             | 1:Fw; 2:R0 
+│                                       | 1:Fw 
+│     AWS | On-Premise | Ansible | NIX  | 1:Fw; 7:Fc; 11:R0; 13:Fc; 24:R0; 26:Fc; 34:R0; 36:Fc
+│        Kubernetes | Helm | Terraform  | 1:Fw; 10:Fc; 21:R0; 23:Fc; 28:R0; 30:Fc
+│                                       | 1:R0
+│                                       | 
+≡ 2018 - 2021   Lead DevOps » (Adagio)  | 1:FY; 3:FG; 15:FW; 29:FY; 31:FK, HL:<https://github.com/badele>; 39:Hl
+│ Gestion d'infra GCP et gestion CI     | 1:Fw; 2:R0
+│                                       | 1:Fw
+│       GCP | Puppet | Gitlab | Github  | 1:Fw; 9:Fc; 13:R0; 15:Fc; 22:R0; 24:Fc;  31:R0; 32:Fc
+│                                       | 1:R0
+│                                       | 
+≡ 2015 - 2018          DevOps » (Hawk)  | 1:FY; 3:FG; 24:FW; 31:FY; 33:FK, HL:<https://github.com/badele>; 39:Hl
+│ Gestion d'infra hybride  (AWS / OVH)  | 1:Fw; 2:R0
+│ Gestion de  CI Github,  optimisation  | 1:Fw; 2:R0 
+│ des performances, conception infra    | 1:Fw; 2:R0 
+│                                       | 1:Fw 
+│           AWS | Terraform | InfluxDB  | 1:Fw ; 13:Fc; 17:R0; 19:Fc; 29:R0; 31:Fc
+│                                       | 1:R0
+│                                       | 
+≡ 1998 - 2015 Dev, SysAdmin » (Axilog)  | 1:FY; 3:FG; 15:FW; 29:FY; 31:FK, HL:<https://github.com/badele>; 39:Hl
+│ Developpement CRM en C#,gestion d'un  | 1:Fw; 2:R0
+│ mini datacenter, 10 serveurs / 50 VM  | 1:Fw; 2:R0 
+│ Conception infra.                     | 1:Fw; 2:R0 
+│                                       | 1:Fw 
+│           AWS | Terraform | InfluxDB  | 1:Fw ; 13:Fc; 17:R0; 19:Fc; 29:R0; 31:Fc

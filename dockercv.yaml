@@ -1,0 +1,39 @@
+background_color: "#000000"
+
+langs:
+  - code: fr
+    label: Français
+  - code: en
+    label: English
+
+layers:
+  - key: "J"
+    label:
+      fr: "Journal Devops"
+      en: "Devops Journal"
+    title:
+      fr: "Journal d'un Devops"
+      en: "A Devops Journal"
+    cmd:
+      fr: "splitans -f neotex -F ansi -V assets/newspaper/fr/journal.neo"
+    help:
+      fr: "\x1b[34mAide: \x1b[37mCe caractère \x1b[0m\x1b[33m »  \x1b[0m\x1b[37mindique un lien hypertexte\x1b[0m \x1b[34m[Optionellement] \x1b[0mFlèche Haut/Bas - Gauche/Droite"
+      en: "\x1b[34mAide: \x1b[37mThis character \x1b[0m\x1b[33m »  \x1b[0m\x1b[37mindicate a hyperlink\x1b[0m"
+  - key: "E"
+    label:
+      fr: "Expérience"
+      en: "Experience"
+    title:
+      fr: "Mes expériences"
+      en: "My experiences"
+    cmd:
+      fr: "splitans -f neotex -F ansi -V assets/experiences/fr/experiences.neo"
+  - key: "P"
+    label:
+      fr: "Projets"
+      en: "Projects"
+    title:
+      fr: "Mes projets"
+      en: "My projects"
+    cmd:
+      fr: "splitans -f neotex -F ansi -V assets/projects/fr/projects.neo"
