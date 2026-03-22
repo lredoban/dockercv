@@ -37,6 +37,8 @@ curl -s https://raw.githubusercontent.com/badele/dockercv/refs/heads/main/assets
 
 ## Tools used
 
+My contributions used to create this resume
+
 - [neotex](https://github.com/badele/neotex) - My new ANSI format
 - [splitans](https://github.com/badele/splitans) - ANSI/Neotex file reader
 - [ansi-compositor](https://github.com/badele/ansi-compositor) - ANSI compositor

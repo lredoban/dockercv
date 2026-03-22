@@ -1,8 +1,8 @@
-                                                                                 | !V0.14.0; !W65/80; !N104/104; 1:FW, Bk, EX, CS, GH, VT;                                                                                 | 
-                        SECURE INTERACTIVE VERSION AVAILABLE                     | 1:FW, DL60;
+                                                                                 | !V0.14.0; !W65/80; !N74/74; 1:FW, Bk;                                                                                 | 
+                        SECURE INTERACTIVE VERSION AVAILABLE                     | 1:FW;
                                                                                  | 
     docker run -it  --cap-drop=ALL --read-only --network none badele/dockercv    | 1:Fw
-                                                                                 | 1:DC2 
+                                                                                 |  
                                                                                  | 
                                          ██                                      | 1:FW
                                   ▓███████████████                               | 
