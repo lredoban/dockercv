@@ -15,7 +15,8 @@ layers:
       fr: "Journal d'un Devops"
       en: "A Devops Journal"
     cmd:
-      fr: "splitans -f neotex -F ansi -V assets/newspaper/fr/journal.neo"
+      fr: "splitans -f neotex -F ansi -V assets/newspaper/fr/newspaper.neo"
+      en: "splitans -f neotex -F ansi -V assets/newspaper/en/newspaper.neo"
     help:
       fr: "\x1b[34mAide: \x1b[37mCe caractère \x1b[0m\x1b[33m »  \x1b[0m\x1b[37mindique un lien hypertexte\x1b[0m \x1b[34m[Optionellement] \x1b[0mFlèche Haut/Bas - Gauche/Droite"
       en: "\x1b[34mAide: \x1b[37mThis character \x1b[0m\x1b[33m »  \x1b[0m\x1b[37mindicate a hyperlink\x1b[0m"
@@ -28,6 +29,7 @@ layers:
       en: "My experiences"
     cmd:
       fr: "splitans -f neotex -F ansi -V assets/experiences/fr/experiences.neo"
+      en: "splitans -f neotex -F ansi -V assets/experiences/en/experiences.neo"
   - key: "P"
     label:
       fr: "Projets"
@@ -36,4 +38,5 @@ layers:
       fr: "Mes projets"
       en: "My projects"
     cmd:
-      fr: "splitans -f neotex -F ansi -V assets/projects/fr/projets.neo"
+      fr: "splitans -f neotex -F ansi -V assets/projects/fr/projects.neo"
+      en: "splitans -f neotex -F ansi -V assets/projects/en/projects.neo"

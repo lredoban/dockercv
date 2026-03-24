@@ -67,9 +67,9 @@
                                                                                  | 
                       F R A N C A I S          E N G L I S H                     | 1:FW 
                     ───────────────────      ─────────────────                   | 1:Fw 
-                    Journal d'un DevOps        DevOps journal                    | 21:HL:<./journal.html>; 40:Hl; 46:F333333; 62:Fw;
-                        Expériences              Experience                      | 25:HL:<./experiences.html>; 36:Hl; 46:F333333; 62:Fw;
-                          Projets                 Projects                       | 27:HL:<./projets.html>; 34:Hl; 46:F333333; 62:Fw;
+                    Journal d'un DevOps        DevOps journal                    | 21:HL:<./newspaper-fr.html>; 40:Hl; 48:HL:<./newspaper-en.html>; 62:Hl, Fw;
+                        Expériences              Experience                      | 25:HL:<./experiences-fr.html>; 36:Hl; 50:HL:<./experiences-en.html>; 60:Hl; 62:Fw;
+                          Projets                 Projects                       | 27:HL:<./projects-fr.html>; 34:Hl; 51:HL:<./projects-en.html>; 59:Hl; 62:Fw;
                                                                                  | 
                                                                                  | 
                     I M P R I M A B L E      P R I N T A B L E                   | 1:FW 

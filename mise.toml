@@ -108,15 +108,24 @@ mv exported-html/index.html exported-html/${usage_savename}
 quiet = true
 
 [tasks.generate-pages]
+description = "Generate all HTML pages for suffix [html]"
+usage = '''
+arg "<suffix>" help="suffix filename" 
+'''
+run = '''
+mise run generate-page newspaper-${usage_suffix}.html "assets/newspaper/${usage_suffix}/newspaper.neo"
+mise run generate-page experiences-${usage_suffix}.html "assets/experiences/${usage_suffix}/experiences.neo"
+mise run generate-page projects-${usage_suffix}.html "assets/projects/${usage_suffix}/projects.neo"
+splitans -f neotex -F html-pack -V "assets/index/index.neo"
+'''
+quiet = true
+
+[tasks.generate-all-pages]
 description = "Generate all dockercv HTML pages [html]"
 run = '''
-mise run generate-page journal.html "assets/newspaper/fr/journal.neo"
-mise run generate-page experiences.html "assets/experiences/fr/experiences.neo"
-mise run generate-page projets.html "assets/projects/fr/projets.neo"
-# BW
-mise run generate-page journal-fr-bw.html "assets/newspaper/fr-BW/journal.neo"
-mise run generate-page experiences-fr-bw.html "assets/experiences/fr-BW/experiences.neo"
-mise run generate-page projets-fr-bw.html "assets/projects/fr-BW/projets.neo"
+mise run generate-pages fr
+mise run generate-pages fr-BW
+mise run generate-pages en
 splitans -f neotex -F html-pack -V "assets/index/index.neo"
 '''
 quiet = true

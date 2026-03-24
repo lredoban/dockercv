@@ -1,0 +1,31 @@
+     █▀▀▀▄  ▄ ▄▄▄  ▄   ▄  ▄▄▄▄    ▄▄▄    | !V1; !TW40/40; !NL31; 1:Fw, Bk; 4:Fc
+     █▀▀▀▄  ▓▀     ▓   ▓  ▓   ▓  ▓   ▓   | 1:R0; 4:Fc
+     █▄▄▄▀  ▓      ▀▄▄▄▀  ▓   ▓  ▀▄▄▄▀   | 1:R0; 4:Fc
+                                         | 1:R0
+     ▄▀▀▀▄  ▓▀▀▀▄  ▓▀▀▀▀  ▓      ▓▀▀▀▀   | 4:Fc
+     ▓▄▄▄▓  ▓   ▓  ▓▀▀▀   ▓      ▓▀▀▀    | 1:R0; 4:Fc
+     ▓   ▓  ▓▄▄▄▀  ▓▄▄▄▄  ▓▄▄▄▄  ▓▄▄▄▄   | 1:R0; 4:Fc
+                                         | 1:R0
+JOB        :     DevOps / SRE / System   | 16:FW; 25:R0; 27:FW; 31:R0; 33:FW
+CITY       :             » Montpellier   | 1:R0; 26:FY; 28:FW, HL:<https://fr.wikipedia.org/wiki/Montpellier>; 38:Hl
+EXPERIENCE :       28 years Experience   | 1:R0; 20:FW
+                                         | 1:R0
+                                         | 
+─ Contact ────────────────────────────   | 3:FY; 11:R0
+                                         | 
+EMAIL   :       » brunoadele@gmail.com   | 17:FY; 19:FW, HL:<mailto:brunoadele@gmail.com>; 39:Hl
+GITHUB  :          » github.com/badele   | 1:R0; 20:FY; 22:FW, HL:<https://github.com/badele>; 39:Hl
+LINKEDIN: » linkedin.com/in/brunoadele   | 1:R0; 11:FY; 13:FW, HL:<https://www.linkedin.com/in/brunoadele>; 39:Hl
+                                         | 1:R0
+─ Skills ─────────────────────────────   | 3:FY; 10:R0 
+                                         | 
+   Archlinux | Centos | Ubuntu | NixOS   | 1:Fc; 14:R0; 16:Fc; 23:R0; 25:Fc; 32:R0; 34:Fc
+       Prometheus | Grafana | Influxdb   | 1:R0; 8:Fc; 19:R0; 22:Fc; 29:R0; 31:Fc
+          Kubernetes | Docker | Podman   | 1:R0; 11:Fc; 22:R0; 24:Fc; 31:R0; 33:Fc
+            AWS | GCP | OVH | Scaleway   | 1:R0; 13:Fc; 17:R0; 19:Fc; 23:R0; 25:Fc; 29:R0; 31:Fc
+             Terraform | Helm | ArgoCD   | 1:R0; 14:Fc; 24:R0; 26:Fc; 31:R0; 33:Fc
+              Bash | Go | Python | SQL   | 1:R0; 15:Fc; 20:R0; 22:Fc; 25:R0; 27:Fc; 34:R0; 36:Fc
+               CI|CD | Github | Gitlab   | 1:R0; 16:Fc; 22:R0; 24:Fc; 31:R0; 33:Fc
+                IPv4 | IPv6 | Mikrotik   | 1:R0; 17:Fc; 22:R0; 24:Fc; 29:R0; 31:Fc
+                 InfluxDB | PostgreSQL   | 1:R0; 18:Fc; 27:R0; 29:Fc
+                  Justfile | flake.nix   | 1:R0; 19:Fc; 28:R0; 30:Fc

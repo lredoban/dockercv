@@ -1,0 +1,99 @@
+                                                                                                         | !V1; !W104/104; !N99; 1:FW, Bk
+               █▀▀▀▀  █▀▀▀█  █▀▀█▀▀█  █▀▀▀█  █▀▀▀  ▀▀█▀▀  █▀▀▀  █▀▀▀█  █▀▀▀▀  █▀▀▀  █▀▀▀▀                | 
+               █      █   █  █  █  █  █▀▀▀▀  █▀▀▀    █    █▀▀▀  █   █  █      █▀▀▀  ▀▀▀▀█                | 
+               █▄▄▄▄  █▄▄▄█  █  █  █  █      █▄▄▄    █    █▄▄▄  █   █  █▄▄▄▄  █▄▄▄  ▄▄▄▄█                | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+              S Y S T E M             C L O U D            MONITORING            IAC / CI-CD             | 
+          ───────────────────      ───────────────      ────────────────      ────────────────           | 1:FK 
+            NixOS      ████░       AWS       ████░      Grafana    ████░      Terraform  ████░           | 1:FW; 24:FG; 28:Fw; 29:FW; 46:FG; 50:Fw; 51:FW; 68:FG; 72:Fw; 73:FW; 90:FG; 94:Fw; 
+            Ubuntu     ████░       GCP       ███░░      Prometheus ███░░      Docker     ████░           | 1:FW; 24:FG; 28:Fw; 29:FW; 46:FC; 49:Fw; 51:FW; 67:FC; 71:Fw; 73:FW; 90:FG; 94:Fw;
+            Archlinux  ███░░       OVH       ██░░░      InfluxDB   ███░░      Kubernetes ███░░           | 1:FW; 24:FC; 27:Fw; 29:FW; 46:FY; 48:Fw; 51:FW; 67:FC; 71:Fw; 73:FW; 90:FC; 93:Fw; 
+            CentOs     ██░░░       Scaleway  ██░░░      ELK        ██░░░      Helm       ███░░           | 1:FW; 24:FY; 26:Fw; 29:FW; 46:FY; 48:Fw; 51:FW; 67:FY; 70:Fw; 73:FW; 90:FC; 93:Fw;
+                                   Hetzner   █░░░░                            ArgoCD     ██░░░           | 1:FW; 24:FY; 25:Fw; 29:FW; 46:FR; 47:Fw; 51:FW; 67:FC; 71:Fw; 73:FW; 90:FY; 92:Fw;
+                                                                                                         | 
+                                                                                                         | 
+            L A N G U A G E        N E T W O R K I N G                                  LEGEND           | 1:FW
+          ───────────────────      ───────────────────                        ────────────────           | 1:FK 
+            Python     ████░        IPV4     ████░                            Maitrise   ████░           | 1:FW; 24:FG; 28:Fw; 29:FW; 46:FG; 50:Fw; 51:FW; 90:FG; 94:Fw
+            Bash       ████░        Routage  ████░                            Solide     ███░░           | 1:FW; 24:FG; 28:Fw; 29:FW; 46:FG; 50:Fw; 51:FW; 90:FC; 93:Fw
+            Go         ███░░        Firewall ███░░                            Notions    ██░░░           | 1:FW; 24:FC; 27:Fw; 29:FW; 46:FC; 49:Fw; 51:FW; 90:FY; 92:Fw
+            SQL        ██░░░        Mikrotik ██░░░                            Decouverte █░░░░           | 1:FW; 24:FY; 26:Fw; 29:FW; 46:FY; 48:Fw; 51:FW; 90:FR; 91:Fw
+            Rust       █░░░░        IPV6     █░░░░                                                       | 1:FW; 24:FR; 25:Fw; 29:FW; 46:FR; 47:Fw; 51:FW; 90:FR; 91:Fw 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+                  █▀▀▀  ▀▄ ▄▀  █▀▀▀█  █▀▀▀  █▀▀▀█  █  █▀▀▀  █▀▀▀█  █▀▀▀▀  █▀▀▀  █▀▀▀▀                    | 1:FW
+                  █▀▀▀   ▄▀▄   █▀▀▀▀  █▀▀▀  █▀▀█▀  █  █▀▀▀  █   █  █      █▀▀▀  ▀▀▀▀█                    | 
+                  █▄▄▄  █   █  █      █▄▄▄  █   █  █  █▄▄▄  █   █  █▄▄▄▄  █▄▄▄  ▄▄▄▄█                    | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+    For  over  28  years,  I  have  been  designing,  operating,  and  optimizing  IT  infrastructures.  | 1:Fw
+I started  in resource-constrained  environments, which naturally  taught me to make  the most of every  | 
+system by prioritizing efficiency and performance control.                                               | 
+                                                                                                         | 
+    Throughout  my  career,  I have designed  and operated  infrastructures ranging up to several dozen  | 
+servers and  around fifty virtual machines,  covering a  variety of  services: messaging, web services,  | 
+and large-scale storage.                                                                                 | 
+                                                                                                         | 
+    I pay particular attention  to the availability  of the services I provide.  My goal  is to deliver  | 
+stable systems,  available 24/7,  capable  of  efficiently handling failures  and  degraded situations.  | 
+This notably involves rigorous monitoring based on tools such as Prometheus and Grafana.                 | 
+                                                                                                         | 
+    My guiding principles                                                                                | 
+                                                                                                         | 
+      - Performance                                                                                      | 
+      - Availability                                                                                     | 
+      - Quality of service                                                                               | 
+      - Automation                                                                                       | 
+                                                                                                         | 
+                                                                                                         | 
+      P E R F O R M A N C E                                                                              | 5:Bg,Fk; 30:R0
+                                                                                                         | 
+                                                                                                         | 
+    Accustomed to working with constrained resources,  I have developed a strong focus on optimization.  | 
+I continuously  seek  to  improve  system  efficiency,  whether  at  the  infrastructure or code level,  | 
+while remaining pragmatic and aligned with business needs.                                               | 
+                                                                                                         | 
+    This approach notably enabled me  to contribute, in 2018 at TabMo / Hawk,  to platforms  capable of  | 
+handling up to 300,000 requests per second.                                                              | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+      A V A I L A B I L I T Y                                                                            | 5:Bg,Fk; 32:R0
+                                                                                                         | 
+    A high-performing service only has value if it is available. I therefore design robust architecture  | 
+capable of ensuring maximum service continuity, with effective incident management.                      | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+      Q U A L I T Y                                                                                      | 5:Bg,Fk; 22:R0
+                                                                                                         | 
+    Quality  is  a  central  element  of  my  work.  I strive  to deliver solutions  that are reliable,  | 
+maintainable, and tailored to users’ needs.                                                              | 
+                                                                                                         | 
+This involves:                                                                                           | 
+                                                                                                         | 
+      - particular attention to code quality                                                             | 
+      - resilient architectures (redundancy, replication, fault tolerance)                               | 
+      - continuous monitoring to ensure long-term stability                                              | 
+                                                                                                         | 
+    A well-designed system is one that requires minimal intervention.                                    | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+                                                                                                         | 
+     A U T O M A T I S A T I O N                                                                         | 5:Bg,Fk; 35:R0
+                                                                                                         | 
+    I place great importance  on automation  in order  to reduce repetitive,  low-value tasks and limit  | 
+human error.                                                                                             | 
+                                                                                                         | 
+    Each incident is an opportunity for improvement. When a problem occurs,  I systematically integrate  | 
+detection mechanisms (monitoring, alerting, testing) to prevent it from happening again.                 | 

@@ -1,0 +1,103 @@
+                                                                                                        | !V1; !W103/103; !N102; 1:Fw, Bk
+                                                                                                        | 
+                                                                                                        | 
+            ▄▄▄▄ █▄  █  ▀█▀  ▀▄ ▄▀     █   █ ▄▀▀▀▄  █▄ ▄█  █▀▀▀▀  █      ▄▀▀▀▄  █▀▀▀▄ ▄▄▄▄              | 1:Fg; 18:FW; 87:Fg
+          ▄▄▄▄▄▄ █ ▀▄█   █    ▄▀▄      █▀▀▀█ █   █  █ ▀ █  █▀▀▀   █      █▄▄▄█  █▀▀▀▄ ▄▄▄▄▄▄            | 1:Fg; 18:FW; 87:Fg
+            ▄▄▄▄ █   █  ▄█▄  █   █     █   █ ▀▄▄▄▀  █   █  █▄▄▄▄  █▄▄▄▄  █   █  █▄▄▄▀ ▄▄▄▄              | 1:Fg; 18:FW; 87:Fg
+                                                                                                        | 1:R0
+    Fully  declarative  NixOS  homelab (flake)  covering  a hybrid  infrastructure,  workstations,  and | 
+networking. Complete automation (deployment, secrets, backups), observability stack and SSO, with a     | 
+reproducible, Infrastructure-as-Code–oriented approach.                                                 | 
+                                                                                                        | 
+                                                                         ▄       ▄▄▄   ▄▄▄▄▄▄  ▄▄▄▄▄▄ s | 72:FY; 80:Fy; 103:FY
+                                                                       █▄█▄█   ██ ██   ██▄▄▄▄     ▄█▀ t | 72:FY; 80:Fy; 103:FY
+                                                                       ▄███▄   ▀▀▀██▀  ██  ██   ▄█▀   a | 72:FY; 80:Fy; 103:FY
+                                                                       ▀ █ ▀      ▀▀   ▀▀▀▀▀▀   ▀▀    r | 72:FY; 80:Fy; 103:FY
+                                                                        » github.com/badele/nix-homelab | 73:FY; 75:FC, HL:<https://github.com/badele/nix-homelab>; 104:Hl
+                                                 ---                                                    | 1:Fm
+                                                                                                        | 
+                                                                                                        | 
+                                                                                                        | 
+                                   ▄▄▄▄ █   █  ▀█▀  █▀▀▀▄  █▀▀▀▀ ▄▄▄▄                                   | 1:Fg; 41:FW; 66:Fg
+                                 ▄▄▄▄▄▄ █   █   █   █   █  █▀▀▀  ▄▄▄▄▄▄                                 | 1:Fg; 41:FW; 66:Fg
+                                   ▄▄▄▄  ▀▄▀   ▄█▄  █▄▄▄▀  █▄▄▄▄ ▄▄▄▄                                   | 1:Fg; 41:FW; 66:Fg
+                                                                                                        | 1:R0
+    VIDE  (Vim IDE):   mainly   designed   for   developers  and  DevOps.  A  ready-to-use  environment | 
+integrating LSP, Git, tooling, and a modern UI. Deployed via Nix (flake), reproducible and optimized    | 
+for infrastructure and automation.                                                                      | 
+l’infrastructure  et l’automatisation.                                                                  | 
+                                                                                                        | 
+                                                                                ▄        ▄▄▄   ▄▄▄▄▄▄ s | 79:FY; 87:Fy; 103:FY
+                                                                              █▄█▄█   ███ ██      ▄█▀ t | 79:FY; 87:Fy; 103:FY
+                                                                              ▄███▄   ▀▀▀▀██▀   ▄█▀   a | 79:FY; 87:Fy; 103:FY
+                                                                              ▀ █ ▀       ▀▀    ▀▀    r | 79:FY; 87:Fy; 103:FY
+                                                                               » github.com/badele/vide | 80:FY; 82:FC, HL:<https://github.com/badele/vide>; 104:Hl
+                                                 ---                                                    | 1:Fm
+                                                                                                        | 
+                                                                                                        | 
+                                                                                                        | 
+           ▄▄▄▄ █▄  █  █▀▀▀▀  ▀▀█▀▀  █   █  ▄▀▀▀▄  █▀▀▀▄  █  ▄▀     █     ▄▀▀▀▄  █▀▀▀▄ ▄▄▄▄             | 1:Fg; 17:FW; 88:Fg
+         ▄▄▄▄▄▄ █ ▀▄█  █▀▀▀     █    █ █ █  █   █  █▀▀▀▄  █▀▀▄      █     █▄▄▄█  █▀▀▀▄ ▄▄▄▄▄▄           | 1:Fg; 17:FW; 88:Fg
+           ▄▄▄▄ █   █  █▄▄▄▄    █    ▀▄▀▄▀  ▀▄▄▄▀  █   █  █   █     █▄▄▄▄ █   █  █▄▄▄▀ ▄▄▄▄             | 1:Fg; 17:FW; 88:Fg
+                                                                                                        | 1:R0
+    Network lab  based on Containerlab enabling  the emulation  of complete topologies (routers, VLANs, | 
+DNS, failover)  without  physical  hardware.  Infrastructure defined  as  Infrastructure as Code,  with | 
+network diagram generation and automated deployments and testing.                                       | 
+                                                                                                        | 
+                                                                                 ▄     ▄▄▄▄▄▄  ▄▄▄▄▄▄ s | 79:FY; 87:Fy; 103:FY
+                                                                               █▄█▄█       ██     ▄█▀ t | 79:FY; 87:Fy; 103:FY
+                                                                               ▄███▄   ▄▄██▀▀   ▄█▀   a | 79:FY; 87:Fy; 103:FY
+                                                                               ▀ █ ▀   ▀▀▀▀▀▀   ▀▀    r | 79:FY; 87:Fy; 103:FY
+                                                                        » github.com/badele/network-lab | 73:FY; 75:FC, HL:<https://github.com/badele/network-lab>; 104:Hl
+                                                 ---                                                    | 1:Fm
+                                                                                                        | 
+                                                                                                        | 
+                                                                                                        | 
+  ▄▄ ▄▀▀▀▀  █      ▀█▀  █▀▀▀▄  █▀▀▀▀  ▄▀▀▀▀ █▀▀▀▀  █▄  █  █▀▀▀▀  █▀▀▀▄  ▄▀▀▀▄  ▀▀█▀▀  ▄▀▀▀▄  █▀▀▀▄ ▄▄   | 1:Fg; 6:FW; 100:Fg
+▄▄▄▄  ▀▀▀▄  █       █   █   █  █▀▀▀   █ ▀▀█ █▀▀▀   █ ▀▄█  █▀▀▀   █▀▀▀▄  █▄▄▄█    █    █   █  █▀▀▀▄ ▄▄▄▄ | 1:Fg; 6:FW; 100:Fg
+  ▄▄ ▄▄▄▄▀  █▄▄▄▄  ▄█▄  █▄▄▄▀  █▄▄▄▄  ▀▄▄▄▀ █▄▄▄▄  █   █  █▄▄▄▄  █   █  █   █    █    ▀▄▄▄▀  █   █ ▄▄   | 1:Fg; 6:FW; 100:Fg
+                                                                                                        | 1:R0
+    CLI tool for automated slide generation (“Slide as Code”)  for social media. Creation of customized | 
+images  using  profiles  and  variables (text, colors, layout),  with  a  reproducible  and  scriptable | 
+rendering based on ImageMagick and Nix.                                                                 | 
+                                                                                                        | 
+                                                                                                        | 
+                                                                                 ▄       ▄▄    ▄▄▄▄▄▄ s | 79:FY; 87:Fy; 103:FY
+                                                                               █▄█▄█   ▀▀██        ██ t | 79:FY; 87:Fy; 103:FY
+                                                                               ▄███▄     ██    ▄▄██▀▀ a | 79:FY; 87:Fy; 103:FY
+                                                                               ▀ █ ▀   ▀▀▀▀▀▀  ▀▀▀▀▀▀ r | 79:FY; 87:Fy; 103:FY
+                                                                    » github.com/badele/slide-generator | 69:FY; 71:FC, HL:<https://github.com/badele/slide-generator>; 104:Hl
+                                                 ---                                                    | 1:Fm
+                                                                                                        | 
+                                                                                                        | 
+                                                                                                        | 
+                                                                                                        | 
+                               █▄  █  █▀▀▀▀  ▄▀▀▀▄  ▀▀█▀▀  █▀▀▀▀  ▀▄ ▄▀                                 | 1:FW
+                               █ ▀▄█  █▀▀▀   █   █    █    █▀▀▀    ▄▀▄                                  | 
+                               █   █  █▄▄▄▄  ▀▄▄▄▀    █    █▄▄▄▄  █   █                                 | 
+                                                                                                        | 
+                         ▄▀▀▀▀  █▀▀▀▄  █      ▀█▀  ▀▀█▀▀  ▄▀▀▀▄  █▄  █  ▄▀▀▀▀                           | 
+                          ▀▀▀▄  █▄▄▄▀  █       █     █    █▄▄▄█  █ ▀▄█   ▀▀▀▄                           | 
+                         ▄▄▄▄▀  █      █▄▄▄▄  ▄█▄    █    █   █  █   █  ▄▄▄▄▀                           | 
+                                                                                                        | 
+                     ▀▀█▀▀  █▀▀▀▀  █▀▀▀▄  █▄ ▄█  █▀▀▀▀  ▄▀▀▀▄  █      ▀█▀  ▄▀▀▀▄                        | 
+                       █    █▀▀▀   █▀▀▀▄  █ ▀ █  █▄▄▄   █   █  █       █   █   █                        | 
+                       █    █▄▄▄▄  █   █  █   █  █      ▀▄▄▄▀  █▄▄▄▄  ▄█▄  ▀▄▄▄▀                        | 
+                                                                                                        | 
+  ▄▄ ▄▀▀▀▄  █▄  █  ▄▀▀▀▀  ▀█▀  ▄▀▀▀▀  ▄▀▀▀▄  █▄ ▄█  █▀▀▀▄  ▄▀▀▀▄  ▄▀▀▀▀  ▀█▀  ▀▀█▀▀  ▄▀▀▀▄  █▀▀▀▄ ▄▄    | 1:Fg; 6:FW; 99:Fg
+▄▄▄▄ █▄▄▄█  █ ▀▄█   ▀▀▀▄   █   █      █   █  █ ▀ █  █▄▄▄▀  █   █   ▀▀▀▄   █     █    █   █  █▀▀▀▄ ▄▄▄▄  | 1:Fg; 6:FW; 99:Fg
+  ▄▄ █   █  █   █  ▄▄▄▄▀  ▄█▄  ▀▄▄▄▄  ▀▄▄▄▀  █   █  █      ▀▄▄▄▀  ▄▄▄▄▀  ▄█▄    █    ▀▄▄▄▀  █   █ ▄▄    | 1:Fg; 6:FW; 99:Fg
+                                                                                                        | 1:R0
+    Suite of tools around the ANSI and Neotex  formats  (editing, parsing, composition, and rendering). | 
+A  complete  pipeline   for  handling  ANSI  files  (tokenization,  transformation,  composition)  and  | 
+integrating them  into  interactive terminal like interfaces.  Modular,  scriptable,  and reproducible  | 
+approach, oriented toward CLI and tooling.                                                              | 
+                                                                                                        | 
+                                                                                         ▄     ▄▄▄▄▄▄ s | 88:FY; 96:Fy; 103:FY
+                                                                                       █▄█▄█       ██ t | 88:FY; 96:Fy; 103:FY
+                                                                                       ▄███▄   ▄▄██▀▀ a | 88:FY; 96:Fy; 103:FY
+                                                                                       ▀ █ ▀   ▀▀▀▀▀▀ r | 88:FY; 96:Fy; 103:FY
+                                                                             » github.com/badele/neotex | 78:FY; 80:FC, HL:<https://github.com/badele/neotex>; 104:Hl
+                                                                           » github.com/badele/splitans | 76:FY; 78:FC, HL:<https://github.com/badele/splitans>; 104:Hl
+                                                                          » github.com/badele/termfolio | 75:FY; 77:FC, HL:<https://github.com/badele/termfolio>; 104:Hl
+                                                                    » github.com/badele/ansi-compositor | 69:FY; 71:FC, HL:<https://github.com/badele/ansi-compositor>; 104:Hl
