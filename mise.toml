@@ -124,7 +124,7 @@ quiet = true
 description = "Generate all dockercv HTML pages [html]"
 run = '''
 mise run generate-pages fr
-mise run generate-pages fr-BW
+mise run generate-pages fr-bw
 mise run generate-pages en
 splitans -f neotex -F html-pack -V "assets/index/index.neo"
 '''
