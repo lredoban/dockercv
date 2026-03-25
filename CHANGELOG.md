@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/lredoban/dockercv/compare/v1.7.1...v1.8.0) (2026-03-25)
+
+
+### Features
+
+* add CRT filter, home link, and fix internal link targets ([a8a93fd](https://github.com/lredoban/dockercv/commit/a8a93fd333168d6f873c8cae33a5ba620696c2fc))
+
 ## [1.7.1](https://github.com/badele/dockercv/compare/v1.7.0...v1.7.1) (2026-03-24)
 
 
