@@ -127,6 +127,7 @@ mise run generate-pages fr
 mise run generate-pages fr-bw
 mise run generate-pages en
 splitans -f neotex -F html-pack -V "assets/index/index.neo"
+scripts/postprocess-html.sh
 '''
 quiet = true
 
